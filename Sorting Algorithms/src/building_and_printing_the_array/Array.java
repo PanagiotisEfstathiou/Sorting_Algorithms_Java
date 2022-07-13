@@ -8,12 +8,12 @@ public class Array {
     public static int[] buildArray(int[] numbers, Random random){
 
           //Change that value to change how many numbers are included in the array
-          numbers = new int[100000000];
+          numbers = new int[100];
           random = new Random();
 
          //Change the bound value to change the range of the possible numbers
          for (int i = 0; i < numbers.length; i++){
-            numbers[i] = random.nextInt(1000000000);
+            numbers[i] = random.nextInt(10000);
         }
 
          return numbers;
